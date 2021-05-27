@@ -34,6 +34,7 @@ module.exports = function (data) {
                 .then(function (response) {
                     if (response.status === 201) {
                         var post = response.data.data;
+                        post.editing = false;
                         vm.posts.unshift(post);
                         vm.post.title = '';
                         vm.post.text = '';
@@ -131,6 +132,7 @@ module.exports = function (data) {
                 .then(function (response) {
                     if (response.status === 201) {
                         var comment = response.data.data;
+                        comment.editing = false;
                         vm.posts[index].comments.push(comment);
                     }
                     event.target.value = '';

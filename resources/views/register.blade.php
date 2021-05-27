@@ -40,6 +40,8 @@
                             {!! Form::password('password_confirmation', [ 'class' => 'form-control '. ($errors->has('password_confirmation') ? 'is-invalid' : '') ]) !!}
                         </div>
                         <button type="submit" class="btn btn-primary">Register</button>
+                        <a class="btn btn-default" href="{{ route('login') }}">Back</a>
+
                     {!! Form::close() !!}
                 </div>
             </div>

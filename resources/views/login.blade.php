@@ -31,6 +31,7 @@
                             {!! $errors->first('password', '<div class="invalid-feedback">:message</div>') !!}
                         </div>
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <a class="btn btn-success" href="{{ route('register') }}">Register</a>
                     {!! Form::close() !!}
                 </div>
             </div>
