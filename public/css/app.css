@@ -1,0 +1,98 @@
+#page-login .container, #page-register .container {
+  margin-top: 150px;
+  max-width: 600px;
+}
+
+#page-home .blog {
+  padding-left: 0;
+  padding-right: 0;
+}
+#page-home .blog .actions {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#page-home .blog .actions > span {
+  cursor: pointer;
+}
+#page-home .blog .datetime {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+#page-home .blog .card-body > .details {
+  padding-top: 5px;
+  padding-left: 50px;
+}
+#page-home .blog .card-body > .details > .avatar {
+  position: absolute;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+#page-home .blog .card-body > .details > label {
+  font-size: 20px;
+  font-weight: 700;
+}
+#page-home .blog .comments {
+  margin-top: 40px;
+}
+#page-home .blog .comments .title {
+  text-align: center;
+  font-weight: 700;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+}
+#page-home .blog .comments .wrapper {
+  margin-top: 15px;
+}
+#page-home .blog .comments .wrapper .comment {
+  position: relative;
+  font-size: 13px;
+}
+#page-home .blog .comments .wrapper .comment label {
+  font-weight: 700;
+}
+#page-home .blog .comments .wrapper .comment > .details {
+  padding-top: 5px;
+  padding-left: 40px;
+}
+#page-home .blog .comments .wrapper .comment > .details > .datetime {
+  font-size: 13px;
+}
+#page-home .blog .comments .wrapper .comment > .details > .avatar {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+#page-home .blog .comments .wrapper input {
+  font-size: 13px;
+}
+
+#page-profile label {
+  font-weight: 500;
+}
+#page-profile .card {
+  width: 100%;
+}
+#page-profile .card .card-title .actions {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#page-profile .card .card-title .actions > span {
+  cursor: pointer;
+}
+#page-profile .card .display-picture {
+  max-width: 240px;
+}
